@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://features.scnd.com/v2.0/superadmin/oauth
+docs: https://features.scnd.com/
+note: >-
+  Second does not publish an OpenAPI specification or a consolidated API
+  reference; these cross-cutting conventions are captured from the platform
+  documentation (GitBook) and the OAuth authorized-apps guide. Fields not
+  documented by the provider are left null rather than fabricated.
+authentication:
+  style: oauth2
+  detail: >-
+    OAuth 2.0 provider with client-credentials, password, and authorization-code
+    grants; Client ID + Client Secret app credentials; optional PKCE ("plain code
+    challenge method"); coarse private/admin permission model.
+  ref: authentication/scnd-authentication.yml
+architecture:
+  api_style: rest
+  detail: >-
+    RESTful, API-driven, modular/composable service architecture with a headless
+    CMS (per scnd.com and the platform docs).
+idempotency: null
+pagination: null
+field_expansion: null
+metadata: null
+request_tracing: null
+versioning:
+  scheme: docs-versioned
+  detail: Documentation is versioned (v2.0 at features.scnd.com); no API version header/date scheme is published.
+error_envelope: null
+rate_limit_signal: null

@@ -1,0 +1,27 @@
+# Second
+
+> Second is a SaaS platform for launching and scaling online service marketplaces, partner-discovery networks and service-procurement solutions. It handles scheduling, vendor onboarding, payments and AI-driven search so companies can sell services online.
+
+## Core documentation
+- [Documentation home](https://features.scnd.com/) : GitBook index
+- [Core concepts](https://features.scnd.com/v2.0/core-concepts) : rendering types & platform architecture
+- [SuperAdmin guide](https://features.scnd.com/v2.0/superadmin) : back-office configuration
+- [Front-office guide](https://features.scnd.com/v2.0/front-office) : end-user flows
+- [OAuth & API access](https://features.scnd.com/v2.0/superadmin/oauth) : external integrations
+- [AI features](https://features.scnd.com/v2.0/superadmin/features/artificial-intelligence-features) : search assistant, vendor matching, RFP assistant
+
+## Solution overviews
+- [Service Marketplace Platform](https://www.scnd.com/platform-marketplace/service-marketplace-platform)
+- [Partner Discovery Platform](https://www.scnd.com/platform-marketplace/partner-discovery-platform)
+- [Lead Generation Platform](https://www.scnd.com/platform-marketplace/lead-generation-platform)
+- [Services Procurement Solution](https://www.scnd.com/platform-marketplace/services-procurement-solution)
+
+## Industry playbooks
+- [Healthcare Marketplace](https://www.scnd.com/industries/healthcare)
+- [IT Services Marketplace](https://www.scnd.com/industries/information-technology)
+- [B2C Service Marketplace](https://www.scnd.com/industries/b2c-marketplace)
+
+## Optional
+- [Second blog](https://www.scnd.com/blog) : insights & case studies
+- [About us](https://www.scnd.com/about-us)
+- [€4 m fundraising announcement](https://www2.scnd.com/announcing-4m-fundraising)

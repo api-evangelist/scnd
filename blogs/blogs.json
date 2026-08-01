@@ -1,0 +1,14 @@
+{
+  "repo": "scnd",
+  "feeds": [
+    {
+      "source": "https://features.scnd.com/v2.0/superadmin/oauth",
+      "feed_url": "https://features.scnd.com/v2.0/superadmin/oauth",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

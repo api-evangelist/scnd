@@ -1,0 +1,40 @@
+generated: '2026-07-21'
+method: searched
+source: https://features.scnd.com/v2.0/superadmin/oauth
+docs: https://features.scnd.com/v2.0/superadmin/oauth
+summary:
+  types: [oauth2]
+  oauth2_flows: [clientCredentials, password, authorizationCode]
+  pkce: true
+  permission_model: [private, admin]
+  note: >-
+    Second exposes an OAuth 2.0 provider. Super-administrators register
+    "Authorized apps" from the back office (SBO > OAuth > Authorized apps),
+    which generates a Client ID and Client Secret used as the app credentials.
+    Endpoint URLs are not published in the docs; the model is described narratively.
+schemes:
+- name: OAuth2
+  type: oauth2
+  source: https://features.scnd.com/v2.0/superadmin/oauth
+  flows:
+  - flow: clientCredentials
+    description: >-
+      Machine-to-machine authentication (client app is a server). Accesses
+      Second API endpoints that do not require user permissions. The app
+      exchanges its Client ID and Secret for a token used on all API requests.
+  - flow: password
+    description: >-
+      Resource Owner Password Credentials grant for trusted first-party client
+      apps (e.g. a Second native mobile app that also collects the user's
+      username/password at login).
+  - flow: authorizationCode
+    description: >-
+      User is redirected to the Second OAuth provider to approve the requested
+      permissions before the client app acts on their behalf; requires a
+      configured homepage URL and authorization callback URL. Supports an
+      optional "plain code challenge method" (PKCE, plain or encrypted).
+  permissions:
+  - name: private
+    description: Access to all frontend endpoints where user auth is required.
+  - name: admin
+    description: Access to all backend endpoints where admin (super-admin) auth is required.

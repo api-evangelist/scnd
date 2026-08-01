@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.scnd.com/
+compliance_page: https://www.scnd.com/
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: 'Footer + "Security First" section state: "Soc2Type2, ISO27001 & GDPR compliance out of the box" and "Second is ISO27001 & Soc2 Type2 certified".'
+- id: iso-27001
+  conforms: true
+  evidence: 'Footer states "Second is ISO27001 & Soc2 Type2 certified"; badges displayed.'
+- id: gdpr
+  conforms: true
+  evidence: 'Homepage states "GDPR compliance out of the box"; privacy policy at https://www.scnd.com/privacy-policy.'
+- id: oauth2
+  conforms: true
+  evidence: 'OAuth 2.0 provider documented at https://features.scnd.com/v2.0/superadmin/oauth (client credentials, password, authorization code grants).'
+- id: pkce
+  conforms: true
+  evidence: '"Plain code challenge method" (PKCE) supported per OAuth authorized-apps docs.'

@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://features.scnd.com/v2.0/superadmin/oauth
+docs: https://features.scnd.com/v2.0/superadmin/oauth
+note: >-
+  Second's OAuth authorized-apps model exposes a coarse two-level permission
+  ("scope") selection rather than a fine-grained named-scope catalog. An
+  authorized app is granted one or both of the permissions below at registration.
+  No further per-resource scope reference is published in the docs.
+schemes:
+- name: OAuth2
+  flows: [clientCredentials, password, authorizationCode]
+scopes:
+- scope: private
+  description: Access to all frontend endpoints where a user auth is required.
+  flows: [password, authorizationCode]
+- scope: admin
+  description: Access to all backend endpoints where an admin (super-admin) auth is required.
+  flows: [clientCredentials, password, authorizationCode]
